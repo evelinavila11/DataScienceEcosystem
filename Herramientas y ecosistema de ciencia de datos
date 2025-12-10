@@ -1,0 +1,186 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<center>\n",
+    "    <img src=\"https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DS0105EN-SkillsNetwork/labs/Module2/images/SN_web_lightmode.png\" width=\"300\" alt=\"cognitiveclass.ai logo\">\n",
+    "</center>\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "jp-MarkdownHeadingCollapsed": true
+   },
+   "source": [
+    "#### Add your code below following the instructions given in the course\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Herramientas y ecosistema de ciencia de datos"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "##### Este cuaderno sirve como una guía concisa que resume las herramientas esenciales y describe el amplio ecosistema de software utilizado en el campo de la ciencia de datos. Su objetivo es proporcionar una visión general de las principales tecnologías empleadas en el análisis, modelado y visualización de datos."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Objetivos:**\n",
+    "\n",
+    "* Listar lenguajes populares para Ciencia de Datos.\n",
+    "* Identificar bibliotecas comúnmente utilizadas por los científicos de datos.\n",
+    "* Conocer herramientas de código abierto utilizadas en el entorno de desarrollo.\n",
+    "* Evaluar expresiones aritméticas básicas en Python.\n",
+    "* Realizar conversiones de unidades simples usando operaciones aritméticas."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Algunos de los lenguajes populares que utilizan los científicos de datos son:\n",
+    "\n",
+    "1. Python: Es el lenguaje dominante en la ciencia de datos debido a su sintaxis simple, su versatilidad y su vasto ecosistema de bibliotecas especializadas (como Pandas, NumPy, Scikit-learn, TensorFlow y PyTorch). Se utiliza para el análisis de datos, el machine learning y el deep learning.\n",
+    "\n",
+    "2. R: Es el lenguaje tradicionalmente preferido en los círculos académicos y estadísticos. Destaca por sus potentes capacidades estadísticas y sus herramientas especializadas en visualización de datos (como la biblioteca ggplot2).\n",
+    "\n",
+    "3. SQL (Structured Query Language): Aunque técnicamente no es un lenguaje de programación, es indispensable para cualquier científico de datos. Se utiliza para consultar, manipular y gestionar datos almacenados en bases de datos relacionales."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Algunas de las bibliotecas comúnmente utilizadas por los científicos de datos incluyen:\n",
+    "\n",
+    "1. Pandas: Es la herramienta fundamental para la manipulación y análisis de datos en Python. Introduce las estructuras de datos DataFrame y Series, que permiten cargar, limpiar, transformar y alinear datos de manera eficiente.\n",
+    "\n",
+    "2. NumPy: Es crucial para el cálculo numérico de alto rendimiento en Python. Proporciona el objeto array multidimensional y rutinas para operaciones matemáticas avanzadas, sirviendo de base para la mayoría de las bibliotecas de ciencia de datos.\n",
+    "\n",
+    "3. Matplotlib: Es la biblioteca principal para la visualización estática de datos en 2D. Permite crear gráficos de líneas, dispersión, barras e histogramas con un alto nivel de personalización.\n",
+    "\n",
+    "4. Scikit-learn (o sklearn): Es la biblioteca estándar para el aprendizaje automático (Machine Learning) tradicional. Proporciona algoritmos de clasificación, regresión, clustering y reducción de dimensionalidad de manera consistente y eficiente.\n",
+    "\n",
+    "5. TensorFlow / PyTorch: Son los frameworks líderes para el aprendizaje profundo (Deep Learning). Se utilizan para construir y entrenar modelos complejos de redes neuronales a gran escala, especialmente en visión por computadora y PLN."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "| Herramientas de Ciencia de Datos |\n",
+    "| :--- |\n",
+    "| Jupyter Notebook |\n",
+    "| JupyterLab |\n",
+    "| VS Code (con extensión de Python/Jupyter) |"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### A continuación, se presentan algunos ejemplos de evaluación de expresiones aritméticas en Python.\n",
+    "\n",
+    "Las expresiones aritméticas son fundamentales en la programación y se utilizan para realizar cálculos con números. Python sigue el orden estándar de precedencia de operadores (PEMDAS/BIDMAS).\n",
+    "\n",
+    "| Expresión Aritmética | Resultado | Descripción |\n",
+    "| :--- | :--- | :--- |\n",
+    "| `10 + 5 * 2` | 20 | La multiplicación (`*`) se realiza primero, luego la suma. |\n",
+    "| `(10 + 5) * 2` | 30 | Los paréntesis fuerzan la suma a realizarse antes de la multiplicación. |\n",
+    "| `15 / 4` | 3.75 | División de punto flotante estándar. |\n",
+    "| `15 // 4` | 3 | División entera (solo devuelve el cociente). |\n",
+    "| `15 % 4` | 3 | Módulo (devuelve el resto de la división). |\n",
+    "| `2 ** 3` | 8 | Exponenciación (2 elevado a la potencia de 3). |"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "17"
+      ]
+     },
+     "execution_count": 1,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Esta es una expresión aritmética simple para multiplicar y luego sumar enteros.\n",
+    "(3 * 4) + 5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3.3333333333333335"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Esto convertirá 200 minutos a horas dividiendo por 60.\n",
+    "200 / 60"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Autor\n",
+    "Evelin Avila Cruz"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
